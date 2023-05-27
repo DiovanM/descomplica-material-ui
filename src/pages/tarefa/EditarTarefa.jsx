@@ -155,7 +155,7 @@ const EditarTarefa = ({handleCloseEditar, idTarefaSelecionada, tarefas, tarefa, 
                 </Select>
               </FormControl>
             </Grid>
-            <Grid container spacing={2} pl={2} mt={2}>
+            <Grid container spacing={10} pl={2} mt={2}>
               <Grid item xs={1}>
                 <Button size="small" variant="contained" onClick={handleEditar}>Salvar</Button>
               </Grid>  

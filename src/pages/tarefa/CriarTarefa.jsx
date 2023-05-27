@@ -6,7 +6,6 @@ import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
-import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
 
 //Declaração do componente CriarTarefa, recebendo como props, do Componente ListarTarefa, os states handClose, tarefas e setTarefas
@@ -142,7 +141,7 @@ const CriarTarefa = ({handleClose, tarefas, setTarefas}) =>{
                 </Select>
               </FormControl>
             </Grid>
-            <Grid container spacing={2} pl={2} mt={2}>
+            <Grid container spacing={10} pl={2} mt={2}>
               <Grid item xs={1}>
                 <Button size="small" variant="contained" onClick={handleSalvar}>Salvar</Button>
               </Grid>  
